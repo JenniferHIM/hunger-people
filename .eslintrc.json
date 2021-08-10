@@ -7,15 +7,34 @@
         }
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "airbnb"
+        "airbnb",
+        "plugin:prettier/recommended"
     ],
+   
     "parser": "babel-eslint",
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "prettier"
+    ],
     "rules": {
+        "import/extensions": [
+      "error",
+      "ignorePackages",
+            {
+        "ts":"never",
+        "tsx":"never"
+            }
+        ],
         "indent": [
             "warn",
             4
+        ],
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
         ],
         "react/jsx-indent": [
             "warn",
@@ -33,10 +52,15 @@
         "react/prop-types": "warn",
         "linebreak-style": 0,
         "import/no-extraneous-dependencies": [
-            "error",
+            "warn",
             {
-                "devDependencies": true
+                "devDependencies": true,
+                "optionalDependencies": false,
+                "peerDependencies": false,
+                "bundleDependencies": false,
+                "packageDir": "./"
             }
         ]
+        
     }
 }

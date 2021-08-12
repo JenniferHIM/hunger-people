@@ -1,0 +1,155 @@
+.container {
+    position: relative;
+    height: 699px;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background-image: url('../../images/header-bg.png');
+}
+
+.logo {
+    position: absolute;
+    margin: auto;
+    margin-top: -72px;
+    top: 0; 
+    left: 0; 
+    right: 0;
+
+    background-image: url('../../images/logo.png');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px; 
+}
+
+.vertical {
+    display: inline-block;
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    margin-left: 81px;
+    margin-top: 150px;
+}
+
+.heroContainer {   
+    position: absolute;
+    max-width: 998px;
+    margin: 0;
+ 
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.title {
+    font-family: Banny-Round;
+    font-size: 96px;
+    line-height: 0px;
+
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.titleMain {
+display: block;
+margin-bottom: 60px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.5em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.line {
+    border: none; 
+    background-color: #E8C300; 
+    color: #E8C300;
+    width: 60px;
+    height: 5px; 
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.addBtn {
+width: 200px;
+height: 60px;
+margin-top: 60px;
+margin-right: 40px; 
+color: #fff; 
+background: transparent;
+border-radius: 5px;
+cursor: pointer;
+overflow: hidden;
+outline: none;
+
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+&:last-child {
+margin-right: 0;
+}
+
+&:hover, &:focus {
+background: #E8C300;
+}
+}
+
+.roundBtn {
+    background-image: url('../../images/down.svg'); 
+    background-color: #fff;
+    background-repeat:no-repeat;
+
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 92px;
+}
+
+.socialBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    margin-right: 79px;
+    margin-top: -220px;
+ 
+}
+
+.socialList {
+    color: #fff;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 4px 2px;
+  
+    &:hover, &:focus {
+    color:  #E8C300;
+}
+}
+
+
+
+

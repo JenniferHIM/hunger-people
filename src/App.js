@@ -1,30 +1,20 @@
 import { Suspense } from 'react';
 
-import Navigation from './components/Navigation';
+import Navigation from './components/Navigation/Navigation';
+import Hero from './components/Hero/Hero';
 import Loader from 'react-loader-spinner';
-import styles from './App.module.css';
-
+import styles from './App.module.scss';
 
 const App = () => {
     return (
         <div className={styles.App}>
-          
             <Navigation />
-
+            <Hero />
             <Suspense
                 fallback={
                     <Loader type="Circles" color="#00BFFF" height={80} width={80} />
                 }
             >
-                {/* <Switch>
-                    <Route path="/movies" exact>
-                        <MoviesView />
-                    </Route>
-                  
-                    <Route path="/">
-                        <HomeView />
-                    </Route>
-                </Switch> */}
             </Suspense>
         </div>
     );

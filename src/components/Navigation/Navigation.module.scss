@@ -20,9 +20,8 @@
   overflow: hidden;
   text-transform: uppercase;
   color: white;
-}
 
-.link::before {
+  &::before {
   content: ' ';
   position: absolute;
   bottom: 0;
@@ -32,29 +31,28 @@
   border-radius: 5px;
   background-color: blue;
   transform: translateX(-100%);
-
   transition: transform 250ms ease-in-out;
+  }
 
-}
-
-.link:hover::before {
+  &:hover::before {
   transform: translateX(0);
-}
+  }
 
-.link:not(:last-child) {
+  &:not(:last-child) {
   margin-right: 60px;
-}
+  }
 
-.link:first-child {
+  &:first-child {
     margin-left: 140px;
-}
+  }
 
-.link:last-child {
+  &:last-child {
     margin-right: 100px;
-}
+  }
 
-.link:nth-child(4) {
+  &:nth-child(4) {
     margin-right: 310px;
+}
 }
 
 .activeLink {

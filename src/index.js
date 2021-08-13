@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import 'modern-normalize/modern-normalize.css';
 import 'react-toastify/dist/ReactToastify.css';
-// import 'styles/main.scss';
+// import './styles/assets/variables.scss';
+// import './styles/assets/mixin.scss';
 import './index.scss';
 import App from './App';
 

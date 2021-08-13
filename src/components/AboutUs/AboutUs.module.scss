@@ -5,7 +5,8 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.aboutUs__textWrap {
+.aboutUs {
+&__textWrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +15,7 @@
     margin-left: 81px;
 }
 
-.aboutUs__title {
+&__title {
 font-family: Banny;
 font-size: 36px;
 line-height: 48px;
@@ -23,7 +24,7 @@ text-transform: uppercase;
 color: #000000;
 }
 
-.aboutUs__line {
+&__line {
     border: none; 
     background-color: #E8C300; 
     color: #E8C300;
@@ -31,41 +32,41 @@ color: #000000;
     height: 5px; 
 }
 
-.aboutUs__text {
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 28px;
-
-color: #000000;
+&__text {
+    font-family: Open Sans;
+    font-style: normal;
+    -weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
 }
 
-.aboutUs__partText {
+&__partText {
     display: block;
     margin-top: 20px;
     font-weight: normal;
 }
 
-.aboutUs__imageWrap {
+&__imageWrap {
     margin: 100px 204px 100px 81px;
 }
 
-.aboutUs__image {
+&__image {
     position: relative;
     float: right;
     width: 475px;
     height: 475px;
 }
 
-.aboutUs__square {
+&__square {
     position: absolute;
     align-items: center;
     float: right;
     width: 250px;
     height: 250px;
-  margin-top: 113px;
-  margin-bottom: 112px;
-  
+    margin-top: 113px;
+    margin-bottom: 112px;
     transform: translateX(113%);
 }
+}
+

@@ -1,0 +1,70 @@
+.container {
+    position: relative;
+    display: flex;
+    background-image: url('../../images/specialtys-bg.png');
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.team {
+&__imageWrap {
+    margin: 100px 72px 100px 193px;
+}
+
+&__image {
+    position: relative;
+    float: left;
+    width: 475px;
+    height: 475px;
+}
+
+&__square {
+    position: absolute;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin-top: 113px;
+    margin-bottom: 112px;
+    transform: translateX(-40%);
+}
+
+&__textWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    margin-right: 101px;
+}
+
+&__title {
+    font-family: Banny;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+&__line {
+    border: none; 
+    background-color: #E8C300; 
+    color: #E8C300;
+    width: 60px;
+    height: 5px; 
+}
+
+&__text {
+    font-family: Open Sans;
+    font-style: normal;
+    -weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+}
+
+&__partText {
+    display: block;
+    margin-top: 20px;
+    font-weight: normal;
+}
+}

@@ -1,13 +1,14 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram } from '@material-ui/icons';
 import styles from './Hero.module.scss';
+import logo from '../../images/logo.png';
 // import { ReactComponent as TableIcon } from '../../images/sprite.svg';
 
 const Hero = () => {
 
     return (
         <div className={styles.container}>
-            <a className={ styles.logo } href="logo.png">.</a>
+            <img src={logo} alt="logo" className={ styles.logo}/>
             <p className={styles.vertical}>Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
             <div className={ styles.heroContainer }>
                 <h1 className={styles.title}><span className={styles.titleMain}>Restaurant</span>Hungry People</h1>

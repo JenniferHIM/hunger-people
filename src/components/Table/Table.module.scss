@@ -1,0 +1,103 @@
+<<<<<<< Updated upstream
+=======
+.container {
+    display: flex;
+    position: relative;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.table {
+    position: relative;
+
+&__textWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    margin-left: 81px;
+    margin-bottom: 0;
+}
+
+&__title {
+    font-family: Banny;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+&__line {
+    border: none; 
+    background-color: #E8C300; 
+    color: #E8C300;
+    width: 60px;
+    height: 5px; 
+}
+
+&__imageWrap {
+    margin: 100px 193px 100px 72px;
+}
+
+&__image {
+    position: relative;
+    float: right;
+    width: 475px;
+    height: 475px;
+}
+
+&__square {
+    position: absolute;
+    align-items: center;
+    float: right;
+    width: 226px;
+    height: 226px;
+    margin-top: 113px;
+    margin-bottom: 112px;
+    transform: translateX(135%);
+}
+
+&__form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+&__input {
+    width: 277px;
+    height: 60px;
+    background: #E5E5E5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+&__button {
+    width: 564px;
+    height: 60px;
+    padding: 0;
+    margin-left: 10px;
+    background: #E8C300;
+    border-radius: 5px;
+    border: none;
+}
+
+&__sceduleWrap {
+    display: block;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    left: 30%;
+    bottom: 10%;
+    margin: 20px 0;
+    font: Open Sans normal 12px;
+    line-height: 12px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+}
+>>>>>>> Stashed changes

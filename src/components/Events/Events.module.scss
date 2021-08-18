@@ -1,0 +1,88 @@
+.container {
+    // padding: 15px;
+    background-image: url('../../images/specialtys-bg.png');
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.events {
+&__title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+} 
+
+&__wrapper {
+    display: flex;
+}    
+&__imageWrap1 {
+    margin: 0 40px 0 205px;
+}
+
+&__image1 {
+    position: relative;
+    float: left;
+    width: 475px;
+    height: 475px;
+}
+
+&__square1 {
+    position: absolute;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin-top: 113px;
+    margin-bottom: 112px;
+    transform: translateX(-38%);
+}
+
+&__imageWrap2 {
+    margin: 0 205px 0 40px;
+}
+
+&__image2 {
+    position: relative;
+    float: right;
+    width: 475px;
+    height: 475px;
+}
+
+&__square2 {
+    position: absolute;
+    align-items: center;
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin-top: 113px;
+    margin-bottom: 112px;
+    transform: translateX(117%);
+}
+
+&__scheduleWrap {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+&__schedule {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+}
+}

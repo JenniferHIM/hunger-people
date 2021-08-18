@@ -24,6 +24,10 @@ const Menu = () => {
                 </div>
                 <div className={styles.menu__price}>
                     <ul className={styles.menu__priceList}>
+                    
+                        {/* <li className={styles.menu__priceItem}>{this.props.title.map(PIZZA QUATRO STAGIONI....  55,68 USD<br/><span className={styles.menu__pricePart}>Integer ullamcorper neque eu purus euismod</span>)</li>
+                     */}
+                        
                         <li className={styles.menu__priceItem}>PIZZA QUATRO STAGIONI....  55,68 USD<br/><span className={styles.menu__pricePart}>Integer ullamcorper neque eu purus euismod</span></li>
                         <li className={styles.menu__priceItem}>PIZZA QUATRO STAGIONI....  55,68 USD<br/><span className={styles.menu__pricePart}>Integer ullamcorper neque eu purus euismod</span></li>
                         <li className={styles.menu__priceItem}>PIZZA QUATRO STAGIONI....  55,68 USD<br/><span className={styles.menu__pricePart}>Integer ullamcorper neque eu purus euismod</span></li>

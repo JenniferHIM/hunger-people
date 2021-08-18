@@ -1,5 +1,4 @@
 .container {
-    // padding: 15px;
     background-image: url('../../images/specialtys-bg.png');
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -17,13 +16,13 @@
     text-transform: uppercase;
     color: #FFFFFF;
     display: block;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0;
 } 
 
 &__wrapper {
     display: flex;
-}    
+}
+
 &__imageWrap1 {
     margin: 0 40px 0 205px;
 }
@@ -75,10 +74,7 @@
 }
 
 &__schedule {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
+    font: Open Sans normal 12px;
     line-height: 12px;
     align-items: center;
     text-align: center;

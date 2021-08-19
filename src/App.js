@@ -6,6 +6,8 @@ import AboutUs from './components/AboutUs';
 import Team from './components/Team';
 import Table from './components/Table';
 import Specialties from './components/Specialties';
+import Menu from './components/Menu';
+import Events from './components/Events';
 
 import Loader from 'react-loader-spinner';
 import styles from './App.module.scss';
@@ -20,6 +22,7 @@ const App = () => {
             <Table />
             <Specialties />
             <Menu />
+            <Events />
             <Suspense
                 fallback={
                     <Loader type="Circles" color="#00BFFF" height={80} width={80} />

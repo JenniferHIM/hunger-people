@@ -9,6 +9,7 @@ import Specialties from './components/Specialties';
 import Menu from './components/Menu';
 import Events from './components/Events';
 import Contact from './components/Contact';
+import Gallery from './components/Gallery';
 
 import Loader from 'react-loader-spinner';
 import styles from './App.module.scss';
@@ -24,6 +25,7 @@ const App = () => {
             <Specialties />
             <Menu />
             <Events />
+            <Gallery />
             <Contact />
             <Suspense
                 fallback={

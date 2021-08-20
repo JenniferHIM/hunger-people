@@ -10,6 +10,7 @@ import Menu from './components/Menu';
 import Events from './components/Events';
 import Contact from './components/Contact';
 import Gallery from './components/Gallery';
+import Direction from './components/Direction';
 
 import Loader from 'react-loader-spinner';
 import styles from './App.module.scss';
@@ -27,6 +28,7 @@ const App = () => {
             <Events />
             <Gallery />
             <Contact />
+            <Direction />
             <Suspense
                 fallback={
                     <Loader type="Circles" color="#00BFFF" height={80} width={80} />

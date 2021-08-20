@@ -21,7 +21,6 @@ const Gallery = () => {
             <div className={styles.container}>
                   <div className={styles.gallery__wrapper}>
                     {images.map((item, index) => (
-                            // className={cx(styles.events__imageWrap, {
                         <img key={ index } src={item.image} alt="rings" className={cx(styles.gallery__image)} />
                     ))}
                 </div>

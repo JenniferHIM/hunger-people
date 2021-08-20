@@ -6,7 +6,7 @@ const Direction = () => {
     return (
         <section className={styles.direction}>
             <div className={styles.container}>
-                <img className={styles.direction__map} src="map.png" alt="map"></img>
+                <img className={styles.direction__map} src="" alt="map"></img>
             </div>
         </section>
     )

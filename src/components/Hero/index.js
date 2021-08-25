@@ -2,33 +2,34 @@ import React from 'react';
 import { Facebook, Twitter, Instagram } from '@material-ui/icons';
 import styles from './Hero.module.scss';
 import logo from '../../images/logo.png';
-// import { ReactComponent as TableIcon } from '../../images/sprite.svg';
+import icon from '../../images/downBtn.png';
 
 const Hero = () => {
 
     return (
-        <div className={styles.container}>
-            <img src={logo} alt="logo" className={ styles.logo}/>
-            <p className={styles.vertical}>Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
-            <div className={ styles.heroContainer }>
-                <h1 className={styles.title}><span className={styles.titleMain}>Restaurant</span>Hungry People</h1>
-                <hr className={ styles.line }/>
-                <div className={styles.buttonWrapper}>
-                    <button type="submit" className={ styles.addBtn }>Book table</button>
-                    <button type="submit" className={ styles.addBtn }>Explore</button>
+        <section className={styles.hero}>
+            <div className={styles.container}>
+                <img src={logo} alt="logo" className={ styles.hero__logo}/>
+                <p className={styles.hero__vertical}>Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+                <div className={ styles.hero__heroContainer }>
+                    <h1 className={styles.hero__title}><span className={styles.hero__titleMain}>Restaurant</span>Hungry People</h1>
+                    <hr className={ styles.hero__line }/>
+                    <div className={styles.hero__buttonWrapper}>
+                        <button type="submit" className={ styles.hero__addBtn }>Book table</button>
+                        <button type="submit" className={ styles.hero__addBtn }>Explore</button>
+                    </div>
+                    <button type="button" className={styles.hero__roundBtn}>
+                        <img className={styles.hero__downIcon} src={icon} alt="icon" />
+                    </button>
                 </div>
-                <button type="button" className={styles.roundBtn}><img className={styles.downIcon} href="./images/sprite.svg" alt=""/></button>
+                <div className={styles.hero__socialBox}>
+                    <Facebook className={ styles.hero__socialList } />
+                    <Twitter className={ styles.hero__socialList } />
+                    <Instagram className={ styles.hero__socialList } />
+                </div>
             </div>
-            
-           
-
-            <div className={styles.socialBox}>
-                <Facebook className={ styles.socialList } />
-                <Twitter className={ styles.socialList } />
-                <Instagram className={ styles.socialList } />
-            </div>
-
-        </div>
+        </section>
+      
     )
 }
 

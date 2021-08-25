@@ -14,14 +14,11 @@
     justify-content: center;
     text-align: center;
     width: 600px;
-    margin-left: 81px;
-    margin-bottom: 0;
+    margin: 0 0 0 81px;
 }
 
 &__title {
-    font-family: Banny;
-    font-size: 36px;
-    line-height: 48px;
+    font: 36px/48px "Banny";
     text-align: center;
     text-transform: uppercase;
     color: #000000;
@@ -36,7 +33,7 @@
 }
 
 &__imageWrap {
-    margin: 100px 193px 100px 72px;
+    margin: 100px 103px 100px 102px;
 }
 
 &__image {
@@ -52,9 +49,8 @@
     float: right;
     width: 226px;
     height: 226px;
-    margin-top: 113px;
-    margin-bottom: 112px;
-    transform: translateX(135%);
+    margin: 113px 0;
+    transform: translateX(140%);
 }
 
 &__form {
@@ -70,18 +66,18 @@
     border: none;
     border-radius: 5px;
     padding-left: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: 0 0 10px 10px;
 }
 
 &__button {
-    width: 564px;
+    width: 575px;
     height: 60px;
-    padding: 0;
     margin-left: 10px;
     background: #E8C300;
     border-radius: 5px;
     border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 &__sceduleWrap {
@@ -92,9 +88,8 @@
     align-items: center;
     left: 30%;
     bottom: 10%;
-    margin: 20px 0;
-    font: Open Sans normal 12px;
-    line-height: 12px;
+    margin: auto;
+    font: normal 12px/12px "Open Sans";
     color: rgba(51, 51, 51, 0.5);
 }
 }

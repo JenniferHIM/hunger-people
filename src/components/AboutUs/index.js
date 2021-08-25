@@ -7,7 +7,7 @@ const AboutUs = () => {
 
     return (
     <section className={styles.aboutUs}>
-            <div className={styles.container}>
+        <div className={styles.container}>
                 <div className={styles.aboutUs__textWrap}>
                     <h2 className={styles.aboutUs__title}>About Us</h2>
                     <hr className={ styles.aboutUs__line }/>
@@ -19,17 +19,13 @@ const AboutUs = () => {
                         </span>
                     </p>
                 </div>
-        
                 <div className={styles.aboutUs__imageWrap}>
                     <img src={about} alt="bonfire" className={styles.aboutUs__image} />
                     <img src={square} alt="square" className={ styles.aboutUs__square}/> 
-                </div>
-               
-    </div>
-    </section>
-            
-)
-    
+                </div>         
+        </div>
+    </section>     
+) 
 }
 
 export default AboutUs;

@@ -14,9 +14,7 @@
 }
 
 &__title {
-    font-family: Banny;
-    font-size: 36px;
-    line-height: 48px;
+    font: 36px/48px "Banny";
     text-align: center;
     text-transform: uppercase;
     color: #000000;
@@ -31,11 +29,7 @@
 }
 
 &__text {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 28px;
+    font: normal bold 18px/28px "Open Sans";
     text-align: center;
     color: #000000;
 }
@@ -62,20 +56,17 @@
 }
 
 &__price {
-    margin-left: 80px;
-    margin-top: 51px;
+    margin: 51px 0 0 80px;
 }
 
 &__priceList {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 70px;
 }
 
 &__priceItem {
-font-family: Banny;
-font-weight: bold;
-font-size: 18px;
-line-height: 18px;
+font: bold 18px/18px "Banny";
 color: #000;
 margin-bottom: 20px;
 }

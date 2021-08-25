@@ -28,9 +28,7 @@ const Table = () => {
                     <p className={styles.table__schedule}>Mon - Fri: <strong>8PM - 10PM</strong>, Sat - Sun: <strong>8PM - 3AM</strong>, Phone: <strong>+40 729 131 637/+40 726 458 782</strong></p>
                 </div>
             </div>
-              
         </section>
-       
     )
 }
 

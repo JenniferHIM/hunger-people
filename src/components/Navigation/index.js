@@ -1,13 +1,11 @@
 import { NavLink } from 'react-router-dom';
-// import styles from './styles/main.scss';
 import styles from './Navigation.module.scss';
 
 const Navigation = () => {
 
     return (
         <div className={ styles.container }>
-            <nav className={styles.navigation}>
-                
+            <nav className={styles.navigation}>   
                 <NavLink exact to="/" className={ styles.link } activeClassName={ styles.activeLink }>
                     Home
                 </NavLink>
@@ -33,9 +31,6 @@ const Navigation = () => {
                     Contact
                 </NavLink>
             </nav>
-
-           
-
         </div>
     );
 };

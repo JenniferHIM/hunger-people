@@ -1,0 +1,81 @@
+.container {
+    // position: relative;
+    background-image: url('../../images/specialtys-bg.png');
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.specialties {
+&__header {
+    display: block;
+    font: normal bold 12px/14px "Open Sans";
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+
+&__wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 100px 103px;
+}
+
+&__imageWrap {
+    display: flex;
+    position: relative;
+}
+
+&__image {
+    position: relative;
+    float: left;
+    width: 475px;
+    height: 475px;
+}
+
+&__square {
+    position: absolute;
+    align-items: center;
+    width: 250px;
+    height: 263px;
+    margin-top: 113px;
+    margin-bottom: 112px;
+    transform: translateX(-38%);
+}
+
+&__textWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    margin: 0 81px;
+}
+
+&__title {
+    font: 36px/48px "Banny";
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+&__line {
+    border: none; 
+    background-color: #E8C300; 
+    color: #E8C300;
+    width: 60px;
+    height: 5px; 
+}
+
+&__text {
+    font: normal bold 18px/28px "Open Sans";
+    color: #fff;
+}
+
+&__partText {
+    display: block;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+}

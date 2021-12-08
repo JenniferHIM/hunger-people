@@ -1,0 +1,74 @@
+.container {
+    background-image: url('../../images/specialtys-bg.png');
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.team {
+&__header {
+    display: block;
+    font: normal bold 12px/14px "Open Sans";
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+
+&__wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 100px 53px;
+}
+
+&__image {
+    position: relative;
+    float: left;
+    width: 475px;
+    height: 475px;
+}
+
+&__square {
+    position: absolute;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin: 113px 0;
+    transform: translateX(-38%);
+}
+
+&__textWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    margin-left: 81px;
+}
+
+&__title {
+    font: 36px/48px "Banny";
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+&__line {
+    border: none; 
+    background-color: #E8C300; 
+    color: #E8C300;
+    width: 60px;
+    height: 5px; 
+}
+
+&__text {
+    font: normal bold 18px/28px "Open Sans";
+    color: #fff;
+}
+
+&__partText {
+    display: block;
+    margin-top: 20px;
+    font-weight: normal;
+}
+}
